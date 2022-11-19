@@ -1,2 +1,2 @@
-# programming-note
+# Programming Note
 Catatan mengenai pemrograman
