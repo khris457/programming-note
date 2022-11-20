@@ -1,7 +1,0 @@
-HTML menyediakan heading level 1 (h1; level paling tinggi) sampai heading level 6 (h6; level paling rendah).
-
-Umumnya h1 memiliki tingkat kepentingan paling tinggi dibanding heading2 lain yang levelnya lebih rendah, sekalipun heading yang levelnya lebih rendah dari h1 berukuran lebih besar.
-
-Secara default ukuran h1 lebih besar dibanding h2, h2 lebih besar dibanding h3 dst sampai h6. Namun, ukuran semua heading bisa diatur melalui CSS. Level heading lebih untuk menunjukkan tingkat kepentingan/prioritas heading tsb.
-
-Kiat: kita bisa melihat contoh pemberian heading di website lain dengan inspeksi -> klik ikon kaca pembesar -> klik heading yang ingin kita lihat jenisnya.

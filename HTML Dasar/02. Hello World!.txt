@@ -1,9 +1,0 @@
--Kita bisa menggunakan notepad untuk membuat halaman HTML, namun notepad tidak didesain untuk pembuatan halaman HTML, sehingga apa2nya serba manual, disarankan menggunakan code editor.
--Kita bisa menuliskan plain text, misalnya "hello world!" saja di dalam file html tanpa ada format apa2, dan jika file tsb dibuka dengan menggunakan browser, akan tampil tulisan "hello world!". Namun jika ditulis seperti itu, browser tidak tahu bahwa yang kita tulis adalah file HTML.
--Untuk itu diperlukan format penulisan HTML supaya browser tahu bahwa yang akan kita tuliskan adalah file HTML.
--Contoh struktur file HTML sederhana dapat dilihat pada file halaman1.html.
--<!doctype html> digunakan supaya browser tahu bahwa kita akan menuliskan file HTML 5.
--Untuk selanjutnya, format penulisan seperti <html>, di mana ada tulisan yang dibungkus kurung lebih besar dan kurung lebih kecil, akan disebut sebagai tag. Jadi, <html> adalah tag html, sedangkan </html> adalah tag penutup html. Tag penutup memiliki simbol slash (/) tepat setelah kurung lebih besar (<). Umumnya tag-tag di HTML berpasangan seperti tag html tadi.
--Tag html <html> adalah tag pembungkus dasar dalam file html.
--Umumnya kita menuliskan elemen HTML di dalam tag <head> atau tag <body>.
--Tag title berguna untuk memberi judul yang akan ditampilkan pada tab browser.
