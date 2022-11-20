@@ -1,0 +1,71 @@
+Table merging adalah menggabungkan beberapa sel menjadi satu.
+
+Ada dua cara untuk melakukan table merging, yaitu menggunakan atribut colspan dan rowspan.
+colspan -> menggabungkan sel secara horizontal (kolomnya memanjang).
+rowspan -> menggabungkan sel secara vertikal (barisnya memanjang).
+
+Contoh penggunaan colspan:
+----------------------------
+<table border="1" cellspacing="0" cellpadding="5">
+	<tr>
+		<td>1,1</td>
+		<td colspan="2">colspan 2</td>
+	</tr>
+	<tr>
+		<td>2,1</td>
+		<td>2,2</td>
+		<td>2,3</td>
+	</tr>
+	<tr>
+		<td>3,1</td>
+		<td>3,2</td>
+		<td>3,3</td>
+	</tr>
+</table>
+----------------------------
+Pada contoh di atas, pada baris pertama, kita hanya menulis dua kolom, karena kolom ketiga telah digabung dengan kolom kedua menggunakan colspan.
+
+Contoh penggunaan rowspan:
+----------------------------
+<table border="1" cellspacing="0" cellpadding="5">
+	<tr>
+		<td rowspan="3">rowspan 3</td>
+		<td colspan="2">colspan 2</td>
+	</tr>
+	<tr>
+		<td>2,2</td>
+		<td>2,3</td>
+	</tr>
+	<tr>
+		<td>3,2</td>
+		<td>3,3</td>
+	</tr>
+</table>
+----------------------------
+Untuk penggunaan rowspan, kita harus cermat. Karena rowspan akan menggabungkan suatu sel dengan sel lain yang berada di baris bawahnya. Kita tidak dapat menaruh elemen lain di baris yang kolomnya sudah ditempati rowspan.
+
+Kita dapat mengombinasikan colspan dan rowspan seperti pada contoh di bawah:
+----------------------------
+<table border="1" cellspacing="0" cellpadding="5">
+	<tr>
+		<td>1,1</td>
+		<td>1,2</td>
+		<td>1,3</td>
+		<td>1,4</td>
+	</tr>
+	<tr>
+		<td>2,1</td>
+		<td colspan="2" rowspan="2"><center>?</center></td>
+		<td>2,4</td>
+	</tr>
+	<tr>
+		<td>3,1</td>
+		<td>3,4</td>
+	</tr>
+	<tr>
+		<td>4,1</td>
+		<td>4,2</td>
+		<td>4,3</td>
+		<td>4,4</td>
+	</tr>
+</table>

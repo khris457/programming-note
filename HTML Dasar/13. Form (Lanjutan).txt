@@ -1,0 +1,23 @@
+Elemen textarea mirip seperti text field (tag input yang tipenya teks). Namun, ukuran kolom elemen textarea lebih besar dan dapat menyimpan teks lebih banyak. Untuk penulisannya cukup dengan membuat tag pembuka dan penutup, tidak perlu memasukkan teks apa2 di dalam tagnya.
+Contoh:
+---------------------------
+<textarea></textarea>
+
+Jika kita memasukkan teks di dalam tag textarea, kolom pada textarea secara bawaan akan berisi teks tersebut. Tentunya kita dapat menghapusnya di halaman websitenya.
+
+Tag select digunakan untuk membuat drop down button atau combo box. Contoh penulisannya adalah sebagai berikut:
+---------------------------
+<select>
+	<option>Jakarta</option>
+	<option>Bogor</option>
+	<option>Tangerang</option>
+	<!-- dan seterusnya -->
+</select>
+---------------------------
+Seperti pada contoh di atas, tag select memerlukan tag option. Tag option berisi pilihan yang ingin kita buat. Kita dapat mengisi pilihan sebanyak yang kita inginkan menggunakan tag option. Nama/teks yang kita tuliskan di dalam tag option akan ditampilkan pada halaman website sebagai pilihan jawaban combo box / drop down button.
+
+Mungkin pada saat membuat form, tampilan form pada halaman website tidak rapi. Untuk merapikannya, kita dapat menggunakan CSS atau memanfaatkan tabel pada HTML.
+
+Untuk memanfaatkan tabel pada HTML, kita dapat memasukkan elemen2 form di dalam sel tabel yang diberi border. Setelah itu, kita dapat menghilangkan bordernya, supaya tampilan form tampak lebih bersih.
+
+Untuk info lebih lengkap mengenai tag form, kita bisa mengunjungi www.w3schools.com/tags/tag_form.asp.

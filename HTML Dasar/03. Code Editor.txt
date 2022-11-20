@@ -1,0 +1,9 @@
+-Code editor disarankan untuk digunakan karena akan mempermudah pembuatan file HTML.
+-Salah satu code editor yang disarankan untuk membuat file HTML adalah sublime text.
+-Sublime text dapat didownload melalui link www.sublimetext.com.
+-Ctrl keypad-plus untuk memperbesar ukuran teks.
+-Ctrl keypad-minus untuk memperkecil ukuran teks.
+-Untuk detail mengenai code editor sublime sudah ada di folder Sublime (bukan di folder ini).
+-Setelah berhasil membuat struktur dasar HTML, baik menggunakan shortcut "html" atau "!" (untuk yang menggunakan plugin Emmet), kita bisa tekan tab sampai mendaratkan kursor pada tab judul. Setelah kursor mendarat pada tab judul, kita bisa mengganti judul tersebut maupun tidak. Setelah itu, kita bisa tekan tab lagi supaya kursor langsung mendarat di tag body, dan kita bisa mulai melakukan koding (untuk yang menggunakan plugin Emmet, terkadang ada masalah saat menekan tab, karena judul yang ditulis malah akan berubah menjadi tag. Mau tidak mau kursor kita pindahkan secara manual ke tag body setelah menulis judul).
+-Dengan menggunakan sublime text, kita bisa klik kanan di daerah pengetikan, lalu tekan "Open in Browser" untuk langsung membuka file html di browser (mengecek hasil kodingan HTML jadi lebih praktis).
+-Selain di folder Sublime, detail mengenai sublime text juga bisa dilihat di dokumentasi sublime text pada laman www.sublimetext.com.

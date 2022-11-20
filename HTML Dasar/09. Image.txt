@@ -1,0 +1,37 @@
+Gambar atau image dapat ditampilkan pada halaman HTML menggunakan tag <img src=""> (tanpa penutup).
+
+Kiat: Situs download gambar bebas hak cipta: unsplash.com.
+
+Ada dua cara menampilkan image, yaitu dengan internal resource (berlaku relative url) dan external resource (hotlink).
+
+Internal resource memiliki sintaks seperti internal link untuk hyperlink (dapat dilihat pada catatan hyperlink).
+
+External resource tidak disarankan karena 3 alasan:
+1. Ketika orang mengunjungi website kita dan kita menampilkan gambar external resource, bandwith yang dipakai untuk menampilkan gambar adalah bandwith website sumber, bukan bandwith kita, sehingga jatuhnya curang.
+2. Jika website sumber sedang down atau tidak bisa diakses, gambar yang sumbernya dari website tsb pun tidak dapat muncul.
+3. Ada kemungkinan gambar yang ingin kita pakai memiliki copyright (hak cipta).
+Jadi kita harus berhati-hati saat menggunakan external resource (hotlink) untuk menampilkan gambar.
+
+Tag img memiliki lima atribut, yaitu: src, alt, title, width, dan height.
+src: Source, sumber gambar. Harus ada jika ingin menampilkan gambar.
+alt: Jika karena suatu alasan gambar tidak tampil (misalnya karena salah ketik sumber atau sumber terhapus), teks yang diberikan pada atribut alt inilah yang akan ditampilkan.
+title: Jika atribut title diisi, ketika pengguna menghover kursor pada gambar, akan muncul tulisan (tool tip) sesuai teks yang diisikan pada atribut ini.
+width dan height: Jika atribut ini tidak diisi, ukuran gambar yang ditampilkan akan sesuai dengan ukuran asli gambarnya.
+Jika hanya salah satu atribut (width atau height) yang diisikan, maka atribut lainnya akan menyesuaikan proporsi gambarnya (misal proporsi lebar dan tinggi gambar adalah 1:2. Jika hanya lebar/width yang diisikan 100 piksel, tinggi/heightnya akan menyesuaikan proporsi gambarnya, yakni menjadi 200 piksel. Begitu juga jika hanya height yang diisikan nilai, width-lah yang akan menyesuaikan proporsi gambarnya).
+Jika kita menggunakan kedua nilai (width dan height), ada kemungkinan gambar akan terdistorsi (gambarnya ketarik gitu), jadi sebaiknya kita berhati-hati jika ingin menggunakan keduanya.
+
+Atribut width dan height dapat diisikan dua satuan nilai, yakni piksel dan persentase.
+
+Jika ingin memberikan satuan piksel, kita bisa menuliskan px atau bahkan tidak perlu menambahkan apa2. Contoh: width="200px", height="150", dll.
+
+Jika ingin memberikan satuan persentase, kita cukup menuliskan simbol persen (%). Contoh: height="20%", width="100%", dll.
+
+Satuan persentase akan membuat gambar memiliki ukuran yang menyesuaikan ukuran containernya. Misal jika width gambar dibuat 50% dan container gambar adalah halaman website, gambar akan berusaha agar ukurannya menjadi 50% (setengah) dari halaman website.
+
+Untuk menggabungkan gambar dengan hyperlink, kita dapat membungkus tag img dengan tag a. Cth:
+---------------------------------------------
+<a href="https://en.wikipedia.org/wiki/Chocolate_brownie">
+	<img src="brownies.jpg" alt="Brownies">
+</a>
+---------------------------------------------
+Dengan begitu gambar akan menjadi hyperlink, sehingga kursor panah yang dihover ke hyperlink gambar tsb akan berubah, seperti ketika kursor panah menghover hyperlink teks. Sintaks hyperlink saat menggunakan gambar sama seperti saat menggunakan teks, bedanya hanya isinya saja. Hyperlink gambar berisi gambar, sedangkan hyperlink teks berisi teks.

@@ -1,0 +1,60 @@
+Kita dapat membuat tabel di HTML dengan menggunakan tag table: <table></table>.
+
+Tag table digunakan untuk membuat struktur data tabular.
+
+Ada dua macam penulisan tag table, yaitu tabel sederhana dan tabel kompleks.
+
+Pada penulisan tabel sederhana, diperlukan dua tag lain, yaitu tr (table row) dan td (table data).
+Contoh penulisannya tabel sederhana:
+-------------------------------
+<table>
+	<tr>
+		<td>baris 1, kolom 1</td>
+		<td>baris 1, kolom 2</td>
+	</tr>
+	<tr>
+		<td>baris 2, kolom 1</td>
+		<td>baris 2, kolom 2</td>
+	</tr>
+</table>
+-------------------------------
+Jadi, sintaksisnya dimulai dari tag table, kemudian tag tr untuk barisnya, setelah itu tag td untuk kolomnya.
+
+Sedangkan, pada penulisan tabel kompleks, selain memerlukan tag tr dan td, diperlukan juga tag thead, tbody, dan th (table head). Penggunaan tag thead dan tbody mirip seperti tag head dan body pada tag html.
+Contoh penulisan tabel kompleks:
+-------------------------------
+<table>
+	<thead>
+		<tr>
+			<th></th>
+			<th>kolom 1</th>
+			<th>kolom 2</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>baris 1</th>
+			<td>baris 1, kolom 1</td>
+			<td>baris 1, kolom 2</td>
+		</tr>
+		<tr>
+			<th>baris 2</th>
+			<td>baris 2, kolom 1</td>
+			<td>baris 2, kolom 2</td>
+		</tr>
+	</tbody>
+</table>
+-------------------------------
+Seperti tabel sederhana, tabel kompleks juga dimulai dari tag table. Setelah itu, kita gunakan tag thead dan tbody seperti penggunaan tag head dan body pada HTML. Di dalam tag thead kita gunakan tag tr dan th. Tag th adalah penanda bahwa apa yang kita tuliskan di dalamnya adalah header. Kemudian untuk tbody, isinya tinggal menggunakan tag tr dan td seperti pada tabel sederhana.
+Namun, jika kita ingin kolom pertama menjadi header juga, atau dengan kata lain, kita ingin membuat tabel dengan dua sumbu header, kita gunakan tag th menggantikan td pada tiap kolom pertama tiap baris, sehingga kolom tsb (kolom pertama) akan menjadi header, seperti pada contoh di atas.
+
+Tag table memiliki lima atribut yang akan dipelajari saat ini (sebenarnya ada lebih dari itu), yaitu:
+1. border -> untuk mengatur tebal batas tabel (satuannya piksel, namun satuan tidak perlu ditulis, walaupun ditulis juga bisa).
+2. cellspacing -> untuk mengatur jarak antar sel. Biasanya cellspacing diberi nilai 0 karena tabel pada umumnya tidak memiliki jarak antar sel, hanya terlihat garis-garis border (batas) kotaknya saja. Satuannya piksel, namun tidak perlu ditulis.
+3. cellpadding -> untuk mengatur ruang antara konten dan border. Semakin besar nilainya, semakin besar "ruang bernapas" konten atau semakin lega ruang antara konten dan border. Satuannya piksel, namun tidak perlu ditulis.
+4. colspan
+5. rowspan
+
+Atribut border, cellspacing, dan cellpadding disarankan untuk diatur di CSS, walaupun bisa juga diatur di HTML.
+
+Atribut colspan dan rowspan dibahas pada catatan Table Merging.
