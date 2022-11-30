@@ -9,4 +9,3 @@ Fork/Forking
 		Caranya adalah pertama kita lakukan forking,
 		setelah itu kita modifikasi repository tersebut,
 		kemudian kita melakukan pull request ke akun pemilik repository aslinya.
-	
