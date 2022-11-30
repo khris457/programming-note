@@ -1,0 +1,15 @@
+Github dapat berfungsi sebagai penyimpanan atau repository cloud.
+
+File yang disimpan di Github tidak perlu berupa kode sumber, bisa berupa file txt saja.
+
+Setiap perubahan yang kita buat pada file di repository Github, bisa kita beri nama singkat perubahannya.
+Jika kita tidak memberi nama singkat perubahan, Github secara otomatis akan memberikan namanya.
+Selain itu, kita juga dapat memberikan penjelasan detail tentang perubahan yang kita buat, selain nama singkat perubahan.
+
+Untuk melihat perubahan pada Github secara visual, kita bisa klik:
+Insight -> Network
+Nanti di sana akan terlihat titik2 alur perubahannya, baik branch ataupun merge dapat terlihat.
+
+Untuk melihat riwayat perubahan pada suatu file, kita bisa klik filenya, kemudian klik "history".
+
+Untuk melihat riwayat perubahan repository, klik nama repository, kemudian klik "commits".

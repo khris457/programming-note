@@ -1,0 +1,16 @@
+Version Control System (VCS)
+	Perangkat lunak yang mengelola perubahan file.
+Git
+	Salah satu perangkat lunak VCS
+Github
+	Salah satu layanan cloud untuk Git
+Repository
+	Tempat penyimpanan file
+Remote
+	Tempat repository cloud
+Commit
+	Melakukan perubahan pada file
+Push
+	Mengirim commit ke remote
+Pull
+	Mengambil proyek dari remote

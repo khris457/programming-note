@@ -1,0 +1,3 @@
+Fork
+	Menduplikat repository seseorang ke repository kita sendiri, sehingga kita dapat mengeditnya sesuai dengan keinginan kita.
+	

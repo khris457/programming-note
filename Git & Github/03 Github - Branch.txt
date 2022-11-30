@@ -1,0 +1,20 @@
+Branch
+	Jalur pengubahan file yang tidak akan saling memengaruhi jika dilakukan commit biasa pada jalur tersebut.
+	Atau dengan kata lain, sebuah jalur 'development' bebas dari sebuah commit.
+	Kita dapat menghapus sebuah branch bila tidak branch tersebut sudah tidak dibutuhkan lagi.
+Checkout
+	Berpindah ke suatu branch/commit yang lain.
+	Checkout ke branch lain di Github lebih mudah karena menggunakan combo box.
+	Namun kalau menggunakan Git, sedikit lebih kompleks.
+Pull Request
+	Meminta pemilik repository untuk mengambil perubahan yang telah kita buat
+Merge
+	Menggabungkan dua buah branch.
+	Umumnya saat merge kita akan mengalami 'merge conflict'.
+	Jenis-jenis merge:
+		Fast forward merging
+			Menggabungkan cabang secara langsung karena tidak ada konflik
+		Three way merging
+			Menggabungkan cabang dengan terlebih dahulu menyelesaikan konflik yang ada antara dua cabang yang akan digabungkan.
+Merge Conflict
+	Baris yang sama pada suatu branch berbeda dengan yang ada di branch lain saat melakukan merge.
