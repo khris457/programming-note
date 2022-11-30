@@ -1,3 +1,12 @@
-Fork
-	Menduplikat repository seseorang ke repository kita sendiri, sehingga kita dapat mengeditnya sesuai dengan keinginan kita.
+Fork/Forking
+	Menduplikat repository seseorang beserta dengan history commitnya ke repository kita sendiri, sehingga kita dapat mengeditnya sesuai dengan keinginan kita, tanpa mengganggu repository aslinya.
+	Sumber repository yang di-fork akan tertulis di repository kita sebagai kredit bagi akun yang repositorynya kita fork.
+	Ada dua cara untuk melakukan forking:
+		Menekan tombol fork di repository akun yang ingin kita fork (tombolnya ada di sekitar pojok kanan atas).
+		Membuka file repository orang yang ingin kita fork, kemudian klik tombol fork and edit yang ikonnya berupa pensil.
+	Fork tidak sama dengan clone.
+	Kita dapat berkontribusi terhadap repository orang lain menggunakan fork
+		Caranya adalah pertama kita lakukan forking,
+		setelah itu kita modifikasi repository tersebut,
+		kemudian kita melakukan pull request ke akun pemilik repository aslinya.
 	
